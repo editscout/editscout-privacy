@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b14">
+  <meta name="description" content="The EditScout privacy policy explains how the extension handles saved video references and on-device analysis.">
+  <title>Privacy Policy — EditScout</title>
+  <style>
+    :root{color-scheme:dark;--bg:#090b14;--panel:#101321;--text:#f5f3ff;--muted:#a5a6ba;--purple:#a78bfa;--cyan:#67e8f9;--border:rgba(167,139,250,.18)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}
+    body{margin:0;background:radial-gradient(ellipse at 12% 0%,rgba(124,58,237,.18),transparent 38rem),radial-gradient(ellipse at 95% 14%,rgba(34,211,238,.09),transparent 32rem),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.75;-webkit-font-smoothing:antialiased}
+    a{color:var(--cyan);text-decoration:none}a:hover{color:var(--purple)}.container{width:min(1080px,90%);margin:auto}
+    header{position:sticky;top:0;z-index:5;border-bottom:1px solid rgba(255,255,255,.07);background:rgba(9,11,20,.82);backdrop-filter:blur(18px)}
+    .nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;color:#fff;font-weight:850;font-size:1.2rem;letter-spacing:-.045em}.logo{width:42px;height:42px;display:grid;place-items:center;border-radius:13px;background:linear-gradient(140deg,#302052,#101b2d);border:1px solid var(--border);box-shadow:0 0 30px rgba(139,92,246,.12)}.logo svg{width:24px;height:24px}.nav-label{font-size:.77rem;color:var(--muted);letter-spacing:.12em;font-weight:700}
+    .hero{padding:82px 0 48px}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--cyan);background:rgba(103,232,249,.055);border:1px solid rgba(103,232,249,.18);padding:7px 12px;border-radius:999px;font-size:.74rem;font-weight:800;letter-spacing:.12em}.eyebrow-dot{width:7px;height:7px;background:var(--cyan);border-radius:50%;box-shadow:0 0 12px var(--cyan)}
+    h1{max-width:800px;margin:23px 0 18px;font-size:clamp(2.65rem,7vw,5.15rem);line-height:1.04;letter-spacing:-.07em}h1 span{background:linear-gradient(100deg,#c4b5fd 5%,#a78bfa 44%,#67e8f9 100%);-webkit-background-clip:text;background-clip:text;color:transparent}.intro{max-width:690px;color:var(--muted);font-size:1.08rem;line-height:1.8}.meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:25px}.pill{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.025);color:#d5d4e5;font-size:.82rem}
+    .trust-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:14px 0 40px}.trust-card{padding:18px;border:1px solid var(--border);border-radius:16px;background:linear-gradient(145deg,rgba(20,24,42,.92),rgba(13,16,28,.9));min-height:124px}.trust-icon{width:34px;height:34px;display:grid;place-items:center;border-radius:10px;background:rgba(167,139,250,.1);color:var(--purple);margin-bottom:12px}.trust-card strong{display:block;font-size:.94rem}.trust-card p{margin:3px 0 0;color:var(--muted);font-size:.82rem;line-height:1.55}
+    .layout{display:grid;grid-template-columns:225px minmax(0,1fr);gap:22px;align-items:start;padding-bottom:78px}aside,article{border:1px solid var(--border);background:rgba(16,19,33,.88);border-radius:20px;box-shadow:0 18px 60px rgba(0,0,0,.12)}aside{position:sticky;top:98px;padding:21px}aside h2{margin:0 0 12px;font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.13em}aside a{display:block;padding:7px 0;color:#c7c7d9;font-size:.85rem}aside a:hover{color:var(--cyan);transform:translateX(2px)}article{padding:clamp(23px,4.8vw,46px)}article h2{margin:36px 0 10px;font-size:1.35rem;line-height:1.4;letter-spacing:-.03em;scroll-margin-top:100px}article h2:first-child{margin-top:0}article p,article li{color:#b9bacb;font-size:.96rem}article ul{padding-left:22px}article li{padding:3px 0}strong{color:#f0edff}.section-number{display:inline-block;margin-right:9px;color:var(--purple);font-size:.8rem;letter-spacing:.06em}
+    .notice{margin:22px 0;padding:16px 18px;border:1px solid rgba(103,232,249,.18);border-left:3px solid var(--cyan);border-radius:12px;background:rgba(103,232,249,.045);color:#d3d9e8;font-size:.92rem}.contact-card{margin-top:15px;padding:18px;border:1px solid var(--border);border-radius:14px;background:rgba(167,139,250,.045)}.contact-card p{margin:4px 0}.contact-label{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+    footer{border-top:1px solid rgba(255,255,255,.08);padding:27px 0 38px;color:#85869b;font-size:.82rem}.footer-inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px}.footer-brand{color:#d9d6eb;font-weight:750}
+    @media(max-width:760px){.hero{padding-top:57px}.layout{grid-template-columns:1fr}.trust-row{grid-template-columns:1fr}.trust-card{min-height:auto}aside{position:static;display:grid;grid-template-columns:1fr 1fr;gap:0 12px}aside h2{grid-column:1/-1}.nav-label{font-size:.68rem}.intro{font-size:1rem}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+  </style>
+</head>
+<body>
+<header><div class="container nav">
+  <a class="brand" href="#top" aria-label="EditScout privacy policy home"><span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M10.7 17.1a6.4 6.4 0 1 1 4.5-1.9" stroke="#a78bfa" stroke-width="2" stroke-linecap="round"/><path d="m15.4 15.4 5 5" stroke="#67e8f9" stroke-width="2.4" stroke-linecap="round"/><path d="m9.3 7.5 5.1 3-5.1 3z" fill="#fff"/></svg></span><span>Edit<span style="color:#a78bfa">Scout</span></span></a>
+  <span class="nav-label">PRIVACY CENTER</span>
+</div></header>
+<main class="container" id="top">
+  <section class="hero">
+    <span class="eyebrow"><span class="eyebrow-dot"></span> TRANSPARENCY BY DESIGN</span>
+    <h1>Your creativity.<br><span>Your privacy.</span></h1>
+    <p class="intro">A clear explanation of how EditScout handles information while you save video moments, organize editing references, and inspect visual changes in YouTube videos and Shorts.</p>
+    <div class="meta"><span class="pill">◷ &nbsp;Effective date: October 24, 2026</span><span class="pill">⌁ &nbsp;EditScout Chrome Extension · v1.0.0</span></div>
+  </section>
+  <section class="trust-row" aria-label="Privacy highlights">
+    <div class="trust-card"><div class="trust-icon" aria-hidden="true">⌂</div><strong>Local reference library</strong><p>Saved references and settings are stored in your browser using Chrome local storage.</p></div>
+    <div class="trust-card"><div class="trust-icon" aria-hidden="true">◉</div><strong>On-device visual analysis</strong><p>The included extension analyzes sampled video-frame pixels in the browser.</p></div>
+    <div class="trust-card"><div class="trust-icon" aria-hidden="true">↗</div><strong>No EditScout account</strong><p>The published package reviewed for this policy contains no EditScout sign-in or remote AI API integration.</p></div>
+  </section>
+  <div class="layout">
+    <aside><h2>On this page</h2>
+      <a href="#overview">Overview</a><a href="#information">Information handled</a><a href="#analysis">Video analysis</a><a href="#storage">Storage and deletion</a><a href="#third-parties">Third-party services</a><a href="#sharing">Sharing and sale</a><a href="#permissions">Permissions</a><a href="#retention">Retention</a><a href="#children">Children's privacy</a><a href="#security">Security</a><a href="#changes">Policy updates</a><a href="#contact">Contact</a>
+    </aside>
+    <article>
+      <h2 id="overview"><span class="section-number">01 /</span>Overview</h2>
+      <p>EditScout is a Chrome extension that helps you save timestamps and visual references from supported YouTube videos and Shorts. This policy explains the information handled by the version 1.0.0 extension package reviewed for this page.</p>
+      <div class="notice">EditScout's saved reference library is stored in your browser. The reviewed package performs its visual frame analysis locally and does not include a remote AI analysis API or an EditScout account system.</div>
+
+      <h2 id="information"><span class="section-number">02 /</span>Information the extension handles</h2>
+      <p>When you use EditScout, the extension may process the following information to provide its features:</p>
+      <ul><li><strong>Video details:</strong> the YouTube video URL and ID, title, channel name when available, and thumbnail URL.</li><li><strong>Moment details:</strong> start and end timestamps, reference titles, tags, notes, and the date a reference was created or updated.</li><li><strong>Visual data:</strong> a frame you choose to capture and small samples of frame pixels used for local visual analysis.</li><li><strong>Analysis results:</strong> observations and estimates derived from sampled frames, which may be saved with a reference if you choose to save it.</li><li><strong>Library data:</strong> the references you save, edit, import, export, or delete.</li></ul>
+      <p>EditScout does not require you to create an account or provide your name, phone number, or email address to use the extension.</p>
+
+      <h2 id="analysis"><span class="section-number">03 /</span>Video analysis and screenshots</h2>
+      <p>When you request an analysis, EditScout reads accessible frames from the active YouTube video and calculates visual measurements in your browser. The included analysis logic estimates patterns such as abrupt cuts, brightness changes, crossfade-like blending, and coarse motion. Results are estimates, not guaranteed identification of the original editing process.</p>
+      <p>When you capture a frame, the extension may keep that image as part of a reference you save. The frame and related reference information are stored locally in Chrome storage. The reviewed package does not send these frames or analysis results to an EditScout server.</p>
+
+      <h2 id="storage"><span class="section-number">04 /</span>Storage and your controls</h2>
+      <p>Saved references and pending captures are stored using Chrome's local extension storage on your device/browser profile. EditScout does not provide a separate cloud-sync account in the reviewed package.</p>
+      <ul><li>You can review and delete saved references inside the extension's library.</li><li>The extension provides an option to export your reference library as a JSON file and import a previously exported library.</li><li>Exported files are saved through Chrome's download mechanism. Once exported, those files are outside the extension's local library; delete them separately if you no longer want them.</li><li>Uninstalling the extension or clearing its stored extension data may remove locally saved references. Export anything you want to keep before doing so.</li></ul>
+
+      <h2 id="third-parties"><span class="section-number">05 /</span>YouTube and third-party services</h2>
+      <p>EditScout works with YouTube pages and uses YouTube video metadata available in the page. It can display YouTube thumbnail images hosted by YouTube. Your browser requests those pages or images from YouTube when you visit or view them, and YouTube may process information under its own terms and privacy policy.</p>
+      <p>The reviewed extension package does not contain a remote AI provider integration, analytics SDK, advertising SDK, or EditScout-operated backend. If a future version adds a service that receives user information, this policy should be updated before that version is released.</p>
+      <p>For details about YouTube's practices, review <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a> and <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener noreferrer">YouTube's Terms of Service</a>.</p>
+
+      <h2 id="sharing"><span class="section-number">06 /</span>Sharing and sale of information</h2>
+      <p>The reviewed extension package does not include a feature that uploads your saved library to an EditScout server or shares it with the developer. EditScout does not sell your saved reference library. Information may still be handled by YouTube when you use YouTube itself, as described above.</p>
+
+      <h2 id="permissions"><span class="section-number">07 /</span>Browser permissions</h2>
+      <ul><li><strong>Storage:</strong> saves and retrieves your local reference library and temporary capture information.</li><li><strong>Downloads:</strong> allows you to export your library as a downloadable JSON file.</li><li><strong>YouTube site access:</strong> allows the extension to read supported video details, interact with the video player, capture accessible frames, and analyze selected moments on YouTube watch pages and Shorts.</li></ul>
+      <p>The extension is designed to operate on supported YouTube pages rather than reading unrelated websites.</p>
+
+      <h2 id="retention"><span class="section-number">08 /</span>Retention and deletion</h2>
+      <p>References remain in your browser's extension storage until you delete them, clear the extension's stored data, or uninstall the extension. A JSON export remains wherever you choose to save it until you delete that file. EditScout's reviewed package does not maintain a separate server-side reference database.</p>
+
+      <h2 id="children"><span class="section-number">09 /</span>Children's privacy</h2>
+      <p>EditScout does not ask users to submit personal information to create an account. The extension is not designed to collect personal information from children. Parents or guardians with questions about this policy may contact the developer using the address below.</p>
+
+      <h2 id="security"><span class="section-number">10 /</span>Security</h2>
+      <p>Local storage is managed by Chrome within your browser profile. Protect access to your device and browser profile, and be careful when exporting or sharing reference files because they may contain video links, notes, and captured frames. No storage method can be guaranteed to be completely secure.</p>
+
+      <h2 id="changes"><span class="section-number">11 /</span>Changes to this policy</h2>
+      <p>This policy may be revised when EditScout's features or data practices change. The effective date at the top will be updated when a new version of this policy is published. If a future release adds remote processing or new data collection, the policy must be updated to describe it accurately.</p>
+
+      <h2 id="contact"><span class="section-number">12 /</span>Contact</h2>
+      <p>For questions about this privacy policy or EditScout's data practices, contact the developer:</p>
+      <div class="contact-card"><div class="contact-label">Privacy contact</div><p><strong>Email:</strong> <a href="mailto:tejas.vudigala@gmail.com">tejas.vudigala@gmail.com</a></p></div>
+    </article>
+  </div>
+</main>
+<footer><div class="container footer-inner"><span class="footer-brand">EditScout <span style="color:#85869b;font-weight:400">· Built for video creators.</span></span><span>Privacy policy · Updated October 24, 2026</span><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>
