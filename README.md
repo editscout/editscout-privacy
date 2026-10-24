@@ -82,5 +82,5 @@ This Privacy Policy may be updated when EditScout's features, data practices, or
 For privacy questions or requests concerning EditScout, contact:
 
 **Developer:** EditScout Developer  
-**Email:** [INSERT YOUR SUPPORT EMAIL]
+**Email:** tejas.vudigala@gmail.com
 
